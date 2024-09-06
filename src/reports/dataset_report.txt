@@ -1,0 +1,35 @@
+Overall Dataset Summary:
+             Rank        Country Country Code       Gold     Silver     Bronze       Total
+count   91.000000             91           91  91.000000  91.000000  91.000000   91.000000
+unique        NaN             91           91        NaN        NaN        NaN         NaN
+top           NaN  United States           US        NaN        NaN        NaN         NaN
+freq          NaN              1            1        NaN        NaN        NaN         NaN
+mean    45.307692            NaN          NaN   3.604396   3.593407   4.219780   11.417582
+std     25.652244            NaN          NaN   6.990278   6.770816   6.558798   19.702829
+min      1.000000            NaN          NaN   0.000000   0.000000   0.000000    1.000000
+25%     23.500000            NaN          NaN   0.000000   0.000000   1.000000    2.000000
+50%     44.000000            NaN          NaN   1.000000   1.000000   2.000000    5.000000
+75%     68.000000            NaN          NaN   3.000000   3.000000   5.000000    9.000000
+max     84.000000            NaN          NaN  40.000000  44.000000  42.000000  126.000000
+
+Top 5 Data Points with Highest Expected Values:
+   Rank        Country Country Code  Gold  Silver  Bronze  Total
+0     1  United States           US    40      44      42    126
+1     2          China          CHN    40      27      24     91
+4     5         France          FRA    16      26      22     64
+6     7  Great Britain          GBG    14      22      29     65
+3     4      Australia          AUS    18      19      16     53
+
+Top 5 Data Points with Lowest Expected Values:
+    Rank         Country Country Code  Gold  Silver  Bronze  Total
+18    19         Ireland          IRE     4       0       3      7
+27    28  Czech Republic          CZE     3       0       2      5
+34    35  Chinese Taipei          TPE     2       0       5      7
+35    36         Austria          AUT     2       0       3      5
+36    37       Hong Kong           HK     2       0       2      4
+
+Model Evaluation (Mean Squared Error):
+Linear Regression: MSE = 7.722772138949431e-26
+Decision Tree: MSE = 0.0
+Random Forest: MSE = 0.9450296703296706
+K-Nearest Neighbors: MSE = 4.491868131868133

@@ -1,0 +1,7 @@
+C:\Users\karan\OneDrive\Desktop\KARAN_SINGH_Workplete_ai_Assignment\workplete_ai_employee>python -m unittest discover -s tests
+Data successfully loaded and cleaned.
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
